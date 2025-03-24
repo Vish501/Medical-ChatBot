@@ -11,6 +11,9 @@
 
      ```bash
      git clone https://github.com/Vish501/Medical-ChatBot.git
+    ```
+     
+     ```bash
      cd Medical-ChatBot
     ```
      
