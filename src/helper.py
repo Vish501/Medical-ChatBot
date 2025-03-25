@@ -23,6 +23,7 @@ def embedding_loader():
 # Creating Pinecone DB
 def create_db(api_key, db_name):
     pc = Pinecone(api_key = api_key)
+    
     pc.create_index(
         name=db_name,
         dimension=384, # Size of the embeddings model output
