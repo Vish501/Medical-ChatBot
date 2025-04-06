@@ -6,9 +6,6 @@ import sys
 import os
 
 def main():
-    # Moving 1 directory up to directly access the data folder
-    os.chdir("../")
-
     # Loading environment variables
     load_dotenv()
     os.environ["PINECONE_API_KEY"] = os.environ.get("PINECONE_API_KEY")
